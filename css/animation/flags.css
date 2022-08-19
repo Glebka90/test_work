@@ -1,0 +1,99 @@
+.flags {
+  animation: moving 120s forwards;
+  animation-delay: 5s;
+  transform-origin: 71px 59px;
+}
+#flag-1 {
+  width: 80px;
+  height: 80px;
+  top: 15px;
+  animation: flag-1 3s forwards;
+  animation-delay: 0s;
+  transform-origin: 0 114px;
+}
+#flag-2 {
+  top: 15px;
+  right: -125px;
+  animation: flag-2 3s forwards;
+  animation-delay: 0.8s;
+  transform-origin: 0 114px;
+}
+#flag-3 {
+  top: 15px;
+  animation: flag-3 4s forwards;
+  animation-delay: 1.2s;
+  transform-origin: 0 114px;
+}
+#flag-4 {
+  width: 180px;
+  height: 180px;
+  top: 100px;
+  right: -125px;
+  animation: flag-4 4s forwards;
+  animation-delay: 1.6s;
+  transform-origin: 0 114px;
+}
+#flag-5 {
+  width: 80px;
+  height: 80px;
+  top: 15px;
+  animation: flag-5 4s forwards;
+  animation-delay: 2s;
+  transform-origin: 0 114px;
+}
+@keyframes moving {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes flag-1 {
+  from {
+    top: 0;
+    right: -110px;
+  }
+  to {
+    top: 114px;
+    right: 95px;
+  }
+}
+@keyframes flag-2 {
+  form {
+    top: 0;
+    right: -110px;
+  }
+  to {
+    top: -79px;
+    right: 65px;
+  }
+}
+@keyframes flag-3 {
+  form {
+    top: 0;
+    right: -110px;
+  }
+  to {
+    top: -215px;
+    right: -125px;
+  }
+}
+@keyframes flag-4 {
+  form {
+    top: 0;
+    right: -150px;
+  }
+  to {
+    top: -120px;
+    right: -350px;
+  }
+}
+@keyframes flag-5 {
+  from {
+       top: 0;
+    right: -110px;
+  }
+  to {
+    top: 114px;
+    right: -315px;
+  }
+}
